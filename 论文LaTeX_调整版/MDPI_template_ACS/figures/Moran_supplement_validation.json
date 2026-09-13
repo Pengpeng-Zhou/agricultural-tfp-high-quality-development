@@ -1,0 +1,96 @@
+{
+  "max_global_I_error": 1.6653345369377348e-16,
+  "max_local_I_error": 8.881784197001252e-16,
+  "counts": [
+    {
+      "variable": "QDI",
+      "year": 2016,
+      "HH": 2,
+      "LL": 6,
+      "HL": 0,
+      "LH": 0,
+      "NS": 23
+    },
+    {
+      "variable": "QDI",
+      "year": 2017,
+      "HH": 2,
+      "LL": 6,
+      "HL": 0,
+      "LH": 0,
+      "NS": 23
+    },
+    {
+      "variable": "QDI",
+      "year": 2018,
+      "HH": 4,
+      "LL": 5,
+      "HL": 0,
+      "LH": 0,
+      "NS": 22
+    },
+    {
+      "variable": "QDI",
+      "year": 2019,
+      "HH": 2,
+      "LL": 4,
+      "HL": 1,
+      "LH": 0,
+      "NS": 24
+    },
+    {
+      "variable": "QDI",
+      "year": 2020,
+      "HH": 3,
+      "LL": 4,
+      "HL": 1,
+      "LH": 0,
+      "NS": 23
+    },
+    {
+      "variable": "TFP",
+      "year": 2017,
+      "HH": 2,
+      "LL": 1,
+      "HL": 1,
+      "LH": 0,
+      "NS": 27
+    },
+    {
+      "variable": "TFP",
+      "year": 2018,
+      "HH": 2,
+      "LL": 2,
+      "HL": 1,
+      "LH": 1,
+      "NS": 25
+    },
+    {
+      "variable": "TFP",
+      "year": 2019,
+      "HH": 4,
+      "LL": 1,
+      "HL": 1,
+      "LH": 1,
+      "NS": 24
+    },
+    {
+      "variable": "TFP",
+      "year": 2020,
+      "HH": 3,
+      "LL": 1,
+      "HL": 1,
+      "LH": 1,
+      "NS": 25
+    }
+  ],
+  "source": "W:\\论文\\农业全要素生产率对经济的作用\\python码\\数据\\新构建分析数据.csv",
+  "source_sha256": "048c7e477251a962b2a1ef98f5c3cc2015296ffe48d77fabdbe5a7bfe27ea367",
+  "observations": 155,
+  "local_records_verified": 279,
+  "table3_matches": true,
+  "inference": "Saved ESDA p_sim from 999 permutations; no new tests or multiple-testing adjustment.",
+  "standardization": "Within each year; ddof=0 for scatter coordinates. W is row-standardized.",
+  "TFP_2016": "Not defined because all provinces share the base value 1.",
+  "weights": "Original contiguity matrix; Hainan linked to Guangdong."
+}

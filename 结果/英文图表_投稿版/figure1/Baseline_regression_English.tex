@@ -1,0 +1,44 @@
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{Baseline regressions of high-quality economic development on cumulative agricultural TFP}
+\label{tab:baseline}
+\footnotesize
+\begin{tabularx}{\textwidth}{l*{5}{>{\centering\arraybackslash}X}}
+\toprule
+Dependent variable: $\ln Y$ & (1) & (2) & (3) & (4) & (5) \\
+& OLS & OLS & Year FE & Province FE & Two-way FE \\
+\midrule
+$\ln TFP$ & $-0.019$ & $0.293$\sym{**} & $-0.279$\sym{*} & $0.716$\sym{***} & $0.446$\sym{**} \\
+& (0.134) & (0.107) & (0.163) & (0.118) & (0.194) \\
+& [$-0.145$] & [2.723] & [$-1.714$] & [6.090] & [2.300] \\
+\addlinespace
+$\ln$ population density & -- & $0.140$\sym{***} & $0.128$\sym{***} & $-0.644$ & $-0.104$ \\
+& & (0.030) & (0.027) & (1.274) & (1.342) \\
+& & [4.726] & [4.702] & [$-0.505$] & [$-0.077$] \\
+\addlinespace
+Primary-sector share & -- & $-0.017$\sym{**} & $-0.016$\sym{**} & $-0.040$\sym{**} & $-0.003$ \\
+& & (0.007) & (0.006) & (0.018) & (0.026) \\
+& & [$-2.405$] & [$-2.545$] & [$-2.293$] & [$-0.111$] \\
+\midrule
+Controls & No & Yes & Yes & Yes & Yes \\
+Province effects & No & No & No & Yes & Yes \\
+Year effects & No & No & Yes & No & Yes \\
+Observations & 155 & 155 & 155 & 155 & 155 \\
+Provinces & 31 & 31 & 31 & 31 & 31 \\
+$R^2$ & 0.000 & 0.591 & 0.662 & 0.948 & 0.957 \\
+Adjusted $R^2$ & $-0.006$ & 0.583 & 0.646 & 0.934 & 0.943 \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}[flushleft]
+\footnotesize
+\item Notes: Province-clustered CR1 standard errors are in parentheses;
+$t$ statistics are in brackets. Tests use $t_{30}$.
+\sym{***}$p<0.01$, \sym{**}$p<0.05$, \sym{*}$p<0.10$.
+The primary-sector share is measured in percentage points.
+Intercepts and fixed-effect coefficients are omitted. $R^2$ and adjusted
+$R^2$ refer to the full dummy-variable regressions, including fixed effects,
+and are not within-$R^2$ measures.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

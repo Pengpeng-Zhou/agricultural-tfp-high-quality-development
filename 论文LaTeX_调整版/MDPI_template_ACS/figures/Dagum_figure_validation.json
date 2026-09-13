@@ -1,0 +1,26 @@
+{
+  "source": "W:\\论文\\农业全要素生产率对经济的作用\\python码\\数据\\新构建分析数据.csv",
+  "n_observations": 155,
+  "n_provinces": 31,
+  "regions": {
+    "东部": 11,
+    "中部": 8,
+    "西部": 12
+  },
+  "max_saved_result_differences": {
+    "Dagum_年度分解结果.csv": 9.71445146547012e-17,
+    "Dagum_区域内结果.csv": 2.220446049250313e-16,
+    "Dagum_区域对分解结果.csv": 2.220446049250313e-16
+  },
+  "max_decomposition_identity_error": 2.7755575615628914e-17,
+  "national_gini_independently_verified": true,
+  "weighting": "Each province has equal weight; regional shares count provinces, not residents.",
+  "TFP_2016": "Common base implies zero Gini and components; contribution shares are undefined.",
+  "Y_gini_decline_percent": 34.27192618937265,
+  "Y_mean_increase_percent": 26.50747728478997,
+  "Y_gini_decline_accounting_shares": {
+    "within": 0.20880329354262808,
+    "net_between": 0.7580851793349899,
+    "transvariation": 0.03311152712238248
+  }
+}
